@@ -129,7 +129,7 @@ def main():
     if args.list:
         print("\nAvailable Universal Agent Skills:")
         for name, desc in skills:
-            print(f"  • {name}: {desc[:80]}...")
+            print(f"  * {name}: {desc[:80]}...")
         return
 
     dest = Path(args.dest).resolve()
