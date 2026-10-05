@@ -1,0 +1,13 @@
+# Task Receipt: T-XYZ Brief Title
+
+- **Task**: T-XYZ Brief Title
+- **Status**: 🟢 Verified & Approved
+- **Completed Date**: YYYY-MM-DD
+- **Blast Radius**:
+  - `path/to/file1.py`
+  - `path/to/file2.py`
+
+## Verification Proof
+1. **Tests Execution**: `command` -> Result: X passed in Ys.
+2. **LOC & Standards**: 0 violations.
+3. **Changes Summary**: Brief description of what was added or fixed.

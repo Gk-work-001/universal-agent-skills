@@ -1,0 +1,20 @@
+---
+description: Universal core rules for all engineers and agents
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Core Engineering Invariants: SOLID, Modularity & Scalability
+
+## 1. SOLID Design Principles (STRICT)
+* **Single Responsibility (SRP)**: Every class, module, and function has exactly one reason to change.
+* **Open/Closed (OCP)**: Core systems are open for extension, closed for modification via provider interfaces and strategy registries.
+* **Liskov Substitution (LSP)**: Derived adapters must be drop-in interchangeable without altering caller behavior.
+* **Interface Segregation (ISP)**: Prefer small, client-specific interfaces over fat monolithic contracts.
+* **Dependency Inversion (DIP)**: Depend on abstractions/protocols, not concrete implementations.
+
+## 2. DRY, Modularity & Size Ceilings
+* **DRY**: Zero duplicate business logic or calculations.
+* **Composition over Inheritance**: Favor object composition over deep inheritance hierarchies.
+* **Ceilings**: Files <= 300 LOC (or <= 250 LOC for frontend), functions <= 40 LOC, nesting <= 3 levels.
+* **Zero Inline Styles**: Use semantic tokenized CSS custom properties.

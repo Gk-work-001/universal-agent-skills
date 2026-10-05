@@ -1,0 +1,22 @@
+---
+ticket: T-XYZ
+title: Brief Feature or Bugfix Title
+domain: core
+status: ready
+blast_radius:
+  - path/to/file1.py
+  - path/to/file2.py
+---
+
+# Task XYZ: Brief Title
+
+## 1. Objective
+One-sentence summary of the exact goal.
+
+## 2. Acceptance Criteria
+- [ ] Criterion 1
+- [ ] Criterion 2
+
+## 3. Verification Protocol
+* Run: `command to verify`
+* Emit receipt to: `.agent/tasks/receipts/T-XYZ-receipt.md`
